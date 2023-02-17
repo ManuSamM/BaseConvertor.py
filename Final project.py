@@ -2,7 +2,7 @@ from tkinter import *
 root = Tk()
 root.configure(bg="coral")
 root.geometry("350x260+450+150")
-root.title("Bitwise calculator")
+root.title("Base Convertor")
 
 def onClick():
     deci = my_entry.get()
