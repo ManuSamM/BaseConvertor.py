@@ -3,8 +3,6 @@ root = Tk()
 root.configure(bg="coral")
 root.geometry("350x260+450+150")
 root.title("Bitwise calculator")
-root.iconbitmap("E:/vscode/python/Python/8. GUI in Python/calcicon.ico")
-
 
 def onClick():
     deci = my_entry.get()
